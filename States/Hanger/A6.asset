@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba7be5541753c3448b73e8141e67737e, type: 3}
+  m_Name: A6
+  m_EditorClassIdentifier: 
+  storyText: 'Oh no!.. You dont feel well.. and need to resupply in food.
+
+
+    What
+    should I do?
+
+    1. Grab a mask and go to the closest market!.
+
+    2. Go to
+    the Hospital
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: 55e74796af96c1b48a27e9beee0f2b2e, type: 2}
+  - {fileID: 11400000, guid: bf9ba87e53625284cbc53ab7629b29d6, type: 2}

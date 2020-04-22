@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba7be5541753c3448b73e8141e67737e, type: 3}
+  m_Name: A1.OutsideHanger
+  m_EditorClassIdentifier: 
+  storyText: 'Virus is everywhere. Store are closing downa and Helth services are
+    declining.
+
+    house hold is runing out of Food!
+
+
+
+    What should I do?
+
+    1.
+    Grab a mask and go to the closest market!.
+
+    2. Online Shopping will deliver
+    food!.'
+  nextStates:
+  - {fileID: 11400000, guid: 085d19e00c48bff4f85ef1aafd634b77, type: 2}
+  - {fileID: 11400000, guid: 085d19e00c48bff4f85ef1aafd634b77, type: 2}
